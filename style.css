@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 10px solid rgb(255, 132, 0); */
+    margin-top: 200px;
+    height: 40vh;
+    width: 100vw;
+    gap: 3px;
+    /* flex-direction: row; */
+}
+
+
+.items {
+    width: 5vw;
+    height: 5vw;
+    border: 3px solid rgb(122, 226, 113);
+    
+    border-radius: 50%;
+    /* animation-name: rangila;
+    animation-duration: 4s;
+    animation-iteration-count: infinite; */
+    animation: rangila 1.2s ease-in-out infinite;
+    font-size: 3rem;
+    text-align: center;
+    /* background: linear-gradient(421deg, #b66828, #161576f2, #9b12c1); */
+    background-size: 200% auto;
+    /* -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; */
+
+
+
+
+
+}
+
+@keyframes rangila {
+    0% {
+     
+        background-color: red;
+        background-position: 200%;
+        
+        transform: translate(0, 0);
+        
+    }
+
+    10% {background-color: blue;
+        background-position: 200%;
+        
+        transform: translate(0, 5px);
+    }
+
+    20% {
+        background-color: orangered;
+        transform: scale(.11);
+        transform: translate(10px, 0);
+    }
+    40% {
+        background-color: greenyellow;
+        transform: scale(.2);
+        transform: translate(0, 15px);
+    }
+    60% {
+        background-color:aquamarine;
+        transform: scale(.3);
+        transform: translate(1, 0);
+    }
+    80% {
+        background-color:brown;
+        transform: scale(.4);
+        transform: translate(10, 0);
+    }
+    100% {
+        background-color: purple;
+        transform: scale(.5);
+        transform: translate(10, 0);
+    }
+
+}
+
+.it2,.it6,.it11,.it15 {
+    align-self: flex-start;
+
+}
+
+.it4,.it8,.it13,.it17 {
+    align-self: flex-end;
+
+}
+
+.it1{
+    
+    animation-delay: 0.3s;
+}
+.it2{
+    animation-duration: .8s;
+    
+}
+.it3{
+
+    animation-duration: 0.9s;
+}
+.it4{
+   
+    animation-duration: 1.5s;
+}
+.it5{
+  
+    animation-duration: 1.8s;
+}
+.it6{
+    
+    animation-duration: 2.1s;
+}
+.it7{
+ 
+    animation-duration: 2.4s;
+}
+.it8{
+   
+    animation-duration: 2.7s;
+}
+.it9{
+  
+    animation-duration: 3s;
+}
+.it10{
+  
+    animation-duration: 3.3s;
+}
+.it11{
+  
+    animation-duration: 3.6s;
+}
+.it12{
+    
+    animation-duration: 3.9s;
+}
+.it13{
+    
+    animation-duration: 4.2s;
+}
+.it14{
+ 
+    animation-duration: 4.5s;
+}
+.it15{
+   
+    animation-duration: 4.8s;
+}
+.it16{
+   
+    animation-duration: 5.1s;
+}
+.it17{
+    
+    animation-duration: 5.4s;
+}
+.it18{
+    
+    animation-duration: 5.7s;
+}
